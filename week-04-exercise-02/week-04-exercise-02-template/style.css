@@ -6,9 +6,9 @@ html,
 body {
     min-height: 100vh;
     margin: 0;
-    background-color: #fff0f5; /* very soft pink background */
-    font-family: "Times New Roman", "Dancing Script", serif; /* Times + cursive fallback */
-    color: #4b2e3a; /* deep muted pink/purple for text */
+    background-color: #fdf6f0; /* soft cream background */
+    font-family: "Times New Roman", serif; /* classic and elegant */
+    color: #4b3a36; /* deep brown text for readability */
     line-height: 1.8;
 }
 
@@ -23,20 +23,20 @@ main {
     max-width: 1200px;
     width: 90%;
     padding: 24px;
-    border: 1px solid rgba(255, 182, 193, 0.5); /* soft pink border */
-    background-color: #fff0f5; /* match body for seamless look */
-    border-radius: 12px; /* soft rounded edges */
-    box-shadow: 0 8px 20px rgba(255, 192, 203, 0.3); /* subtle shadow for depth */
+    border: 1px solid rgba(120, 85, 70, 0.3); /* subtle warm brown border */
+    background-color: #fffaf4; /* cream card background */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(120, 85, 70, 0.15);
 }
 
 h1 {
-    font-family: "Dancing Script", cursive; /* fancy cursive for headings */
+    font-family: "Dancing Script", cursive; /* elegant cursive */
     font-weight: normal;
     font-size: 60px;
     line-height: 1.1em;
     margin: 48px 0;
     text-align: center;
-    color: #e75480; /* rich pink for headings */
+    color: #7c5e4f; /* warm brown for headings */
 }
 
 main > p {
@@ -46,8 +46,8 @@ main > p {
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
-    color: #c4717f; /* soft rose shade for paragraph text */
-    font-style: italic; /* subtle elegance */
+    color: #5a4238; /* soft brown for paragraph text */
+    font-style: italic;
 }
 
 .collection-grid {
@@ -59,18 +59,18 @@ main > p {
 }
 
 .collection-card {
-    border: 1px solid rgba(255, 182, 193, 0.5); /* light pink border */
-    background-color: #ffe4ec; /* soft pink card background */
+    border: 1px solid rgba(120, 85, 70, 0.3);
+    background-color: #fffaf4;
     padding: 20px;
     flex: 1 1 300px;
     border-radius: 12px;
-    box-shadow: 0 6px 15px rgba(255, 182, 193, 0.3); /* subtle shadow */
+    box-shadow: 0 6px 15px rgba(120, 85, 70, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .collection-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 25px rgba(255, 182, 193, 0.4);
+    box-shadow: 0 12px 25px rgba(120, 85, 70, 0.2);
 }
 
 .collection-card img {
@@ -79,7 +79,7 @@ main > p {
     display: block;
     border-radius: 8px;
     margin-bottom: 16px;
-    border: 1px solid rgba(255, 182, 193, 0.5);
+    border: 1px solid rgba(120, 85, 70, 0.2);
 }
 
 .collection-card h2 {
@@ -88,12 +88,12 @@ main > p {
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 10px;
-    color: #d15f84; /* medium pink */
+    color: #7c5e4f; /* warm brown headings */
 }
 
 .collection-card .details {
     font-size: 14px;
-    color: rgba(139, 69, 69, 0.6); /* muted rose-brown */
+    color: rgba(90, 66, 56, 0.7); /* muted brown */
     margin-bottom: 12px;
     font-style: italic;
 }
@@ -102,7 +102,7 @@ main > p {
     font-size: 16px;
     margin-bottom: 0;
     line-height: 1.6;
-    color: #8b4961; /* soft mauve for text */
+    color: #5a4238;
 }
 
 @media (min-width: 480px) {
